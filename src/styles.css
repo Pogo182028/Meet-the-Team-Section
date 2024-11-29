@@ -988,6 +988,10 @@ video {
     max-width: 75%;
   }
 
+  .sm\:max-w-\[90\%\] {
+    max-width: 90%;
+  }
+
   .sm\:rounded-b-2xl {
     border-bottom-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
