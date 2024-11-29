@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    .label-gray {
+        @apply text-base text-[#394150];
+    }
+    .labels-h2 {
+        @apply font-medium text-[#F3F4F6] text-xl;
+    }
+    .labels-p {
+        @apply text-[#F3F4F6] text-base;
+    }
+}
