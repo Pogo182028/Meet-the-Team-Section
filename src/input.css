@@ -15,4 +15,7 @@
     .flex-image-height {
         @apply flex flex-col justify-end max-sm:h-80 sm:h-72 lg:h-[270px] 2xl:h-96 bg-center bg-no-repeat relative;
     }
+    .hover-image {
+        @apply transition-transform duration-300 hover:brightness-125;
+    }
 }
